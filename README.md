@@ -1,5 +1,5 @@
-Projet : Vérification de l’authenticité de documents PDF sur la Blockchain
-🎯 Objectif
+# Projet : Vérification de l’authenticité de documents PDF sur la Blockchain
+## Objectif
 Développer un smart contract qui :
 Enregistre l’empreinte de documents PDF à partir de 3 métadonnées : titre, taille, date.
 
@@ -14,7 +14,7 @@ Fonctionne localement avec Ganache et Hardhat.
 
 
 
-Outils utilisés
+## Outils utilisés
 Outil
 Utilisation
 Solidity
@@ -34,22 +34,20 @@ Tests unitaires automatisés
 Architecture du projet
 📁 my-blockchain-project/
 ├── contracts/
-│   ├── HelloWorld.sol
 │   └── DocumentVerifier.sol       ← Nouveau contrat
 ├── scripts/
 │   └── deploy.js                  ← Script de déploiement
 ├── test/
-│   ├── HelloWorld.js
 │   └── DocumentVerifier.js        ← Tests unitaires
 ├── hardhat.config.js
 ├── package.json
 
 
-🔧 1. Installation et configuration
+ 1. Installation et configuration
 npm init -y
 npm install --save-dev hardhat
 npx hardhat
-# Choisir : "Create a JavaScript project"
+ Choisir : "Create a JavaScript project"
 npm install --save-dev @nomicfoundation/hardhat-toolbox
 
 Configuration Ganache
@@ -64,7 +62,7 @@ module.exports = {
 };
 
 
-2. Smart Contract - contracts/DocumentVerifier.sol
+### 2. Smart Contract - contracts/DocumentVerifier.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
