@@ -31,7 +31,7 @@ Chai + Mocha
 Tests unitaires automatisés
 
 
-Architecture du projet
+## Architecture du projet
 📁 my-blockchain-project/
 ├── contracts/
 │   └── DocumentVerifier.sol       ← Nouveau contrat
